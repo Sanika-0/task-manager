@@ -1,16 +1,66 @@
-# React + Vite
+# Task Manager Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Task Manager Web App built using React.js and Vite.  
+This project was developed as an assignment to manage daily tasks in a simple and user-friendly interface.
 
-Currently, two official plugins are available:
+## Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The objective of this project is to build a responsive Task Manager Web App where users can add, edit, delete, complete, and manage their tasks.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed or pending
+- Filter tasks by All, Pending, and Completed
+- Search tasks by title, description, or priority
+- Set task priority: Low, Medium, and High
+- Add due dates to tasks
+- Task statistics: Total, Pending, and Completed
+- LocalStorage persistence
+- Responsive design for desktop, tablet, and mobile
+- Hover effects and smooth transitions
+- Empty task state with illustration
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- LocalStorage
+
+## React Concepts Used
+
+- Functional Components
+- useState
+- useEffect
+- useMemo
+- Props
+- Custom Hook
+- Component-based architecture
+
+## Project Structure
+
+```text
+src/
+├── assets/
+│   ├── task-hero.png
+│   ├── empty-tasks.png
+│   └── productivity.png
+│
+├── components/
+│   ├── Header.jsx
+│   ├── TaskForm.jsx
+│   ├── TaskItem.jsx
+│   ├── TaskList.jsx
+│   └── FilterBar.jsx
+│
+├── hooks/
+│   └── useLocalStorage.js
+│
+├── App.jsx
+├── index.css
+└── main.jsx
