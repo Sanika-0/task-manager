@@ -1,6 +1,7 @@
 # Task Manager Web App
 
-A responsive Task Manager Web App built using React.js and Vite.  
+A responsive Task Manager Web App built using React.js and Vite.
+
 This project was developed as an assignment to manage daily tasks in a simple and user-friendly interface.
 
 ## Objective
